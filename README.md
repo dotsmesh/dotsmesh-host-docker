@@ -54,7 +54,7 @@ Then configure the proxy server.
 
 ### 3. Run the installer
 
-Visit https://dotsmesh.example.com/dotsmesh-installer.php to run the Dots Mesh installer.
+Visit https://dotsmesh.example.com/dotsmesh-installer.php (replace dotsmesh.example.com with your domain) to run the Dots Mesh installer.
 
 ## Under the hood
 
@@ -64,7 +64,7 @@ When started for the first time a Dots Mesh installer will be downloaded.
 
 ## Updates
 
-It's recommended you rebuild the container to get the latest Alpine, NGINX, and PHP updates. The Dots Mesh software will auto-update (if enabled from the admin panel).
+It's recommended you rebuild the container regularly to get the latest Alpine, NGINX, and PHP updates. The Dots Mesh software will auto-update (if enabled from the admin panel).
 
 ## Supported architectures
 linux/amd64, linux/arm64, linux/386, linux/arm/v7, linux/arm/v6
